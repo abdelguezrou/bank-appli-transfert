@@ -1,0 +1,12 @@
+<jboss-deployment-structure>
+    <deployment>
+        <!-- Exclusions allow you to prevent the server from automatically adding some dependencies     -->
+        <exclusions>
+            <module name="org.slf4j" />
+            <module name="org.slf4j.impl" />
+        </exclusions>
+        <dependencies>
+
+        </dependencies>
+    </deployment>
+</jboss-deployment-structure>
